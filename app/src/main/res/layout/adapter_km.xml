@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNumeAdapterKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="test"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/tvAdapterDataKm"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/data"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tvAdapterDataKm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/tvAdapterOraKm"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/ora"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tvAdapterOraKm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/tvAdapterIndexKm"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/index_bord_citit"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tvAdapterIndexKm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/tvAdapterObsKm"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/observatii"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/tvAdapterObsKm1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/adaugati_aici_observatiile_dumneavoastra" />
+
+</LinearLayout>
+

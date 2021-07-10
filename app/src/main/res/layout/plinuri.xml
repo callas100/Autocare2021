@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main6clase.MainPlinuri">
+
+    <LinearLayout
+    android:layout_width="297dp"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="@+id/tvCredit"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.42000002">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSofer"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sofer" />
+
+        <EditText
+            android:id="@+id/etSofer"
+            style="@style/hintRed"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvData"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="@string/data" />
+
+        <EditText
+            android:id="@+id/etData"
+            style="@style/hintRed"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="datetime" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvLuk"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/lukoil"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npL1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npL2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npL3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvRom"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/rompetrol"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npR1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npR2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npR3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvMol"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/mol"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npM1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npM2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/npM3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPlinuri"
+        style="@style/tvStyle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plinuri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/btAdaugaMasina"
+        android:layout_width="133dp"
+        android:layout_height="66dp"
+        android:background="@drawable/button"
+        android:text="@string/adauga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/tvCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/credit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+</androidx.constraintlayout.widget.ConstraintLayout>

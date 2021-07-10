@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.autocare2021">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/car"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/car"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name="com.example.autocare2021.main6clase.InfoFull" />
+        <activity android:name="com.example.autocare2021.main6clase.MainCasco" />
+        <activity android:name="com.example.autocare2021.main6clase.MainRovinieta" />
+        <activity android:name="com.example.autocare2021.main6clase.MainPlinuri" />
+        <activity android:name="com.example.autocare2021.main6clase.MainReparatii" />
+        <activity android:name="com.example.autocare2021.main6clase.MainKm" />
+        <activity android:name="com.example.autocare2021.original.AdaugareMasina" />
+        <activity android:name="com.example.autocare2021.original.AlegeMasina" />
+        <activity android:name="com.example.autocare2021.original.PaginaPrincipala" />
+        <activity android:name="com.example.autocare2021.main6clase.MainRevizii" />
+        <activity android:name="com.example.autocare2021.original.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

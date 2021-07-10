@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1063918964563",
+    "firebase_url": "https://dumitru-razvan-dorian-db-default-rtdb.firebaseio.com",
+    "project_id": "dumitru-razvan-dorian-db",
+    "storage_bucket": "dumitru-razvan-dorian-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063918964563:android:87d67f0fc5ed052ac91ba6",
+        "android_client_info": {
+          "package_name": "com.example.aplicatieproiect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063918964563-2p9rqtkcgjifnbsgdur2hr9qdc7t21tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJO6D4-At3bOiI9npx8SssSGGcwdNK2iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063918964563-2p9rqtkcgjifnbsgdur2hr9qdc7t21tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063918964563:android:24feb04d8101de20c91ba6",
+        "android_client_info": {
+          "package_name": "com.example.sem11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063918964563-2p9rqtkcgjifnbsgdur2hr9qdc7t21tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJO6D4-At3bOiI9npx8SssSGGcwdNK2iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063918964563-2p9rqtkcgjifnbsgdur2hr9qdc7t21tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

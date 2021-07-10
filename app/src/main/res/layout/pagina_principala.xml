@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".original.PaginaPrincipala">
+
+
+    <Button
+        android:id="@+id/btKm"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/actualizare_km"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/btRovinieta"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/rovinieta"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="@+id/btPlinuri"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btPlinuri"
+        app:layout_constraintTop_toBottomOf="@+id/btPlinuri"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <Button
+        android:id="@+id/btPlinuri"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/plinuri"
+
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="@+id/btReparatii"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btReparatii"
+        app:layout_constraintTop_toBottomOf="@+id/btReparatii"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/btCASCO"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/asigurare_casco"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="@+id/btRevizii"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btRevizii"
+        app:layout_constraintTop_toBottomOf="@+id/btRevizii"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <Button
+        android:id="@+id/btRevizii"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/revizii"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="@+id/btKm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btKm"
+        app:layout_constraintTop_toBottomOf="@+id/btKm"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/btReparatii"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:background="@drawable/button"
+        android:text="@string/reparatii"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/tvCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageButton
+        android:id="@+id/btImageInfo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@mipmap/ic_info"
+        app:layout_constraintBottom_toTopOf="@+id/tvCredit"
+        app:layout_constraintEnd_toStartOf="@+id/btRovinieta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btCASCO"
+        app:layout_constraintTop_toBottomOf="@+id/btRovinieta"
+        app:layout_constraintVertical_bias="0.853" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
